@@ -6,19 +6,36 @@
     <link rel="stylesheet" href="my-css-styles.css">
   </head>
   <body>
-     
-     <p><a href="/index.html" title="Back to Homepage">Homepage</a></p>
-      <p><a href="/1-HTML/1-2-multimedia-and-encoding/index.html" title="1-2-multimedia-and-encoding">1-2 multimedia and encoding</a></p>
+
+    <p><a href="/index.html" title="Back to Homepage">Homepage</a></p>
+    <p><a href="/1-HTML/1-2-multimedia-and-encoding/index.html" title="1-2-multimedia-and-encoding">1-2 multimedia and encoding</a></p>
+    <h1>1.2.1 Multimedia and Embedding Self Checks</h1>
+  <h2>Self Check 1 Creating a Figure</h2>
+    <figure>
+      <img src="assets/dinosaur_small.jpg" 
+           alt="The head and torso of a dinosaur skeleton;
+                it has a large head with long sharp teeth "
+           width="200"
+           height="171">
+
+      <figcaption>A T-Rex on display in the Manchester University Museum.</figcaption>
+    </figure>
+
+  <h2>Self Check 2 Embedding Audio and Video</h2>
+    <p>
+      <audio controls>
+        <source src="/1-HTML/1-2-multimedia-and-encoding/Assets/viper.ogg" type="audio/ogg">
+          <source src="/1-HTML/1-2-multimedia-and-encoding/Assets/viper.mp3" type="audio/mp3">
+        Your browser doesn't support HTML5 audio. Here is a <a href="assets/viper.mp3">link to the audio</a>instead.
+      </audio>
+    </p>
+    <p>
+    <video controls width="400" height="400" autoplay loop muted poster="/1-HTML/1-2-multimedia-and-encoding/Assets/poster.png">
       
-      <figure>
-        <img src="/1-HTML/1-2-multimedia-and-encoding/Assets/dinosaur_small.jpg" 
-        alt="The head and torso of a dinosaur skeleton;
-        it has a large head with long sharp teeth "
-        width="200"
-        height="171">
-       
-        <figcaption>A T-Rex on display in the Manchester University Museum.</figcaption>
-        </figure>
-      
+      <source src="/1-HTML/1-2-multimedia-and-encoding/Assets/rabbit320.mp4" type="video/mp4">
+      <source src="/1-HTML/1-2-multimedia-and-encoding/Assets/rabbit320.webm" type="video/webm">
+      Your Bowser doesn't support HTML video. Here is a <a href="assets/rabbit320.mp4">Link to the video</a> instead.
+    </video>
+    </p>
   </body>
 </html>
