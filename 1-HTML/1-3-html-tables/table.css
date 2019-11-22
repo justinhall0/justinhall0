@@ -6,3 +6,11 @@ table{
 th{
     width:150;
 }
+h1{
+    text-align: center;
+}
+th{
+    width:400;
+    padding:10;
+    border:2;
+}
