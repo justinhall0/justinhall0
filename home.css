@@ -13,10 +13,10 @@ li {
 a {
   display: block;
   padding: 8px;
-  background-color: #dddddd;
+  background-color: #333;
 }
 ul {
-  background-color: #dddddd;
+  background-color: #333;
 }
 ul {
   list-style-type: none;
