@@ -14,45 +14,48 @@
 
 <h1>Blackstone Bistro | Pizza-on-Demand</h1>
 
-<p>Our 12" wood-fired pizzas are available for delivery. Build your custom pizza and we'll deliver it within an hour.</p>
+    <p>Our 12" wood-fired pizzas are available for delivery. Build your custom pizza and we'll deliver it within an hour.</p>
 
-
-Your Information
-<form action="#" method="get">
-<ul>
-  <p>Name:<input class="login" type="text" name="username" size="15" maxlength="30"/></p>
-  <li>Address:</li>
-  <li>Telephone Number:</li>
-  <li>Email:</li>
-  <li>Delivery instructions:</li>
-</ul>
+    <form>
+    
+    <form action="http://www.blackgoosebistro.com/pizza.php" method="POST">
+        <ul>
+          <li>Your Information</li>
+          <li>Name: <input type="text" name="customername"></li>
+          <li>Address:<input type="text" name="customeraddress"></li>
+          <li>Telephone Number:<input type="text" name="customerphone"></li>
+          <li>Email:<input type="text" name="customeremail"></li>
+          <li>Delivery instructions:<br><textarea name="instructions" rows="4" cols="60"maxlength="400" 
+          placeholder="No more than 400characters long"></textarea></li>
+        </ul>
 
 
 <h2>Design Your Dream Pizza:</h2>
 
-<p>Pizza specs<p>
+    <p>Pizza specs<p>
 
-<p>Crust <em>(Choose one)</em>:</p>
-<ul>
-  <li>Classic white</li>
-  <li>Multigrain</li>
-  <li>Cheese-stuffed crust</li>
-  <li>Gluten-free</li>
-</ul>
+    <p>Crust <em>(Choose one)</em>:</p>
+        <ul>
+          <li>Classic white</li>
+          <li>Multigrain</li>
+          <li>Cheese-stuffed crust</li>
+          <li>Gluten-free</li>
+        </ul>
 
-<p>Toppings <em>(Choose as many as you want)</em>:</p>
-<ul>
-  <li>Red sauce</li>
-  <li>White sauce</li>
-  <li>Mozzarella Cheese</li>
-  <li>Pepperoni</li>
-  <li>Mushrooms</li>
-  <li>Peppers</li>
-  <li>Anchovies</li>
-</ul>
+    <p>Toppings <em>(Choose as many as you want)</em>:</p>
+        <ul>
+          <li>Red sauce</li>
+          <li>White sauce</li>
+          <li>Mozzarella Cheese</li>
+          <li>Pepperoni</li>
+          <li>Mushrooms</li>
+          <li>Peppers</li>
+          <li>Anchovies</li>
+        </ul>
 
-<p>Number</p>
-<p>How many pizzas:<p>
-
+        <p>Number</p>
+        <p>How many pizzas:<p>
+    <p><input type="submit" value="Bring me a pizza!"><input type="reset"></p>
+</form>
 </body>
 </html>
