@@ -19,8 +19,9 @@
     <form>
     
     <form action="http://www.blackgoosebistro.com/pizza.php" method="POST">
+     <fieldset>
+      <legend>Your Information</legend>
         <ul>
-          <li>Your Information</li>
           <li>Name: <input type="text" name="customername"></li>
           <li>Address:<input type="text" name="customeraddress"></li>
           <li>Telephone Number:<input type="text" name="customerphone"></li>
@@ -28,41 +29,48 @@
           <li>Delivery instructions:<br><textarea name="instructions" rows="4" cols="60"maxlength="400" 
           placeholder="No more than 400 characters long"></textarea></li>
         </ul>
+     </fieldset>
 
 
 <h2>Design Your Dream Pizza:</h2>
-
-    <p>Pizza specs<p>
-
-    <p>Crust <em>(Choose one)</em>:</p>
-        <ul>
-            <li><input type="radio" name="crust" value="white"> Classic white</li>
-            <li><input type="radio" name="crust" value="grain"> Multigrain</li>
-            <li><input type="radio" name="crust" value="cheese"> Cheese-stuffed crust</li>
-            <li><input type="radio" name="crust" value="glutenfree"> Gluten-free</li>
-        </ul>
-
-    <p>Toppings <em>(Choose as many as you want)</em>:</p>
-        <ul>
-            <li><input type="checkbox" name="toppings[]" value="red sauce" checked="checked"> Red Sauce</li>
-            <li><input type="checkbox" name="toppings[]" value="white sauce"> White sauce</li>
-          <li><input type="checkbox" name="toppings[]" value="mozzarella cheese">Mozzarella Cheese</li>
-          <li><input type="checkbox" name="toppings[]" value="mushrooms">Mushrooms</li>
-          <li><input type="checkbox" name="toppings[]" value="peppers">Peppers</li>
-          <li><input type="checkbox" name="toppings[]" value="anchovies">Anchovies</li>
-        </ul>
-
-        <p>Number</p>
-        <p>How many pizzas:
-            <select name="EightiesFave">
-                <option>1</option>
-                <option>2</option>
-                <option>3</option>
-                <option>4</option>
-                <option>5</option>
-                <option>6</option>
-            </select>
-        </p>
+ <fieldset>
+    <legend>Pizza specs</legend>
+     <fieldset>
+        <legend>Crust <em>(Choose one)</em>:</legend>
+            <ul>
+                <li><input type="radio" name="crust" value="white"> Classic white</li>
+                <li><input type="radio" name="crust" value="grain"> Multigrain</li>
+                <li><input type="radio" name="crust" value="cheese"> Cheese-stuffed crust</li>
+                <li><input type="radio" name="crust" value="glutenfree"> Gluten-free</li>
+            </ul>
+        </fieldset>
+          <fieldset>
+                <legend>Toppings <em>(Choose as many as you want)</em>:</legend>
+                    <ul>
+                        <li><input type="checkbox" name="toppings[]" value="red sauce" checked="checked"> Red Sauce</li>
+                        <li><input type="checkbox" name="toppings[]" value="white sauce"> White sauce</li>
+                      <li><input type="checkbox" name="toppings[]" value="mozzarella cheese">Mozzarella Cheese</li>
+                      <li><input type="checkbox" name="toppings[]" value="mushrooms">Mushrooms</li>
+                      <li><input type="checkbox" name="toppings[]" value="peppers">Peppers</li>
+                      <li><input type="checkbox" name="toppings[]" value="anchovies">Anchovies</li>
+                    </ul>
+            </fieldset>
+              <fieldset>
+                    <legend>Number</legend>
+                    <p>How many pizzas:
+                        <select name="EightiesFave">
+                            <option>1</option>
+                            <option>2</option>
+                            <option>3</option>
+                            <option>4</option>
+                            <option>5</option>
+                            <option>6</option>
+                        </select>
+                    </p>
+                </fieldset>
+      
+     
+    </fieldset>
     <p><input type="submit" value="Bring me a pizza!"><input type="reset"></p>
 </form>
 </body>
