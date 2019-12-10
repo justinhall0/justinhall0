@@ -16,18 +16,17 @@
 
     <p>Our 12" wood-fired pizzas are available for delivery. Build your custom pizza and we'll deliver it within an hour.</p>
 
-    <form>
     
     <form action="http://www.blackgoosebistro.com/pizza.php" method="POST">
      <fieldset>
       <legend>Your Information</legend>
         <ul>
-          <li>Name: <input type="text" name="customername"></li>
-          <li>Address:<input type="text" name="customeraddress"></li>
-          <li>Telephone Number:<input type="text" name="customerphone"></li>
-          <li>Email:<input type="text" name="customeremail"></li>
-          <li>Delivery instructions:<br><textarea name="instructions" rows="4" cols="60"maxlength="400" 
-          placeholder="No more than 400 characters long"></textarea></li>
+          <li><label>Name: <input type="text" name="customername"></label></li>
+          <li><label>Address:<input type="text" name="customeraddress"></label></li>
+          <li><label>Telephone Number:<input type="text" name="customerphone"></label></li>
+          <li><label>Email:<input type="text" name="customeremail"></label></li>
+          <li><label>Delivery instructions:<br><textarea name="instructions" rows="4" cols="60"maxlength="400" 
+          placeholder="No more than 400 characters long"></textarea></label></li>
         </ul>
      </fieldset>
 
@@ -38,21 +37,21 @@
      <fieldset>
         <legend>Crust <em>(Choose one)</em>:</legend>
             <ul>
-                <li><input type="radio" name="crust" value="white"> Classic white</li>
-                <li><input type="radio" name="crust" value="grain"> Multigrain</li>
-                <li><input type="radio" name="crust" value="cheese"> Cheese-stuffed crust</li>
-                <li><input type="radio" name="crust" value="glutenfree"> Gluten-free</li>
+                <li><label><input type="radio" name="crust" value="white" checked="checked"> Classic white</label></li>
+                <li><label><input type="radio" name="crust" value="grain"> Multigrain</label></li>
+                <li><label><input type="radio" name="crust" value="cheese"> Cheese-stuffed crust</label></li>
+                <li><label><input type="radio" name="crust" value="glutenfree"> Gluten-free</label></li>
             </ul>
         </fieldset>
           <fieldset>
                 <legend>Toppings <em>(Choose as many as you want)</em>:</legend>
                     <ul>
-                        <li><input type="checkbox" name="toppings[]" value="red sauce" checked="checked"> Red Sauce</li>
-                        <li><input type="checkbox" name="toppings[]" value="white sauce"> White sauce</li>
-                      <li><input type="checkbox" name="toppings[]" value="mozzarella cheese">Mozzarella Cheese</li>
-                      <li><input type="checkbox" name="toppings[]" value="mushrooms">Mushrooms</li>
-                      <li><input type="checkbox" name="toppings[]" value="peppers">Peppers</li>
-                      <li><input type="checkbox" name="toppings[]" value="anchovies">Anchovies</li>
+                      <li><label><input type="checkbox" name="toppings[]" value="red sauce" checked="checked"> Red Sauce</label></li>
+                      <li><label><input type="checkbox" name="toppings[]" value="white sauce"> White sauce</label></li>
+                      <li><label><input type="checkbox" name="toppings[]" value="mozzarella cheese">Mozzarella Cheese</label></li>
+                      <li><label><input type="checkbox" name="toppings[]" value="mushrooms">Mushrooms</label></li>
+                      <li><label><input type="checkbox" name="toppings[]" value="peppers">Peppers</label></li>
+                      <li><label><input type="checkbox" name="toppings[]" value="anchovies">Anchovies</label></li>
                     </ul>
             </fieldset>
               <fieldset>
@@ -71,7 +70,7 @@
       
      
     </fieldset>
-    <p><input type="submit" value="Bring me a pizza!"><input type="reset"></p>
+    <p><label><input type="submit" value="Bring me a pizza!"><input type="reset"></label></p>
 </form>
 </body>
 </html>
