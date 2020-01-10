@@ -3,6 +3,7 @@ body {
   font-family: Georgia, serif;
   font-size: 100%;
   background-color: white;
+  margin: 0;
 }
 
 /* link styles */
@@ -22,6 +23,9 @@ header p {
   font-style: italic;
   font-size: 1.2em;
 }
+header h1 {
+  margin-top: 1.5em;
+}
 
 /* nav styles */
 nav, footer {
@@ -39,6 +43,9 @@ nav ul li {
   text-transform: uppercase;
   letter-spacing: .2em;
 }
+nav ul {
+  margin: 0;
+}
 
 /* main "products" styles */
 main {
@@ -47,6 +54,7 @@ main {
   line-height: 1.8em;
   color: #555;
   padding: 1em;
+  margin: 2.5%;
 }
 h3 {
   text-transform: uppercase;
@@ -55,6 +63,7 @@ h3 {
   border-top: 1px solid;
   border-left: 3px solid;
   padding-left: 1em;
+  margin-top: 2.5em;
 }
 p.more {
   font-family: verdana, sans-serif;
@@ -67,7 +76,8 @@ aside {
   background: url(images/scallop.png) repeat-y left top;
   background-color: #F6F3ED;
   padding: 1em;
-  padding-left: 45px;
+  padding-left: 45px, margin-top: 1em, 
+  margin-right: 2.5%, margin-bottom: 0, margin-left: 10%;
 }
 /* misc styles */
 footer {
