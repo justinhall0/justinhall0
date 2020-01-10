@@ -52,6 +52,9 @@ h3 {
   text-transform: uppercase;
   letter-spacing: .2em;
   color: #7A0002;
+  border-top: 1px solid;
+  border-left: 3px solid;
+  padding-left: 1em;
 }
 p.more {
   font-family: verdana, sans-serif;
@@ -87,4 +90,9 @@ html {
 }
 * {
   box-sizing: inherit;
+}
+a {
+  text-decoration: none;
+  border-bottom: 1px dotted;
+  padding-bottom: .2em;
 }
