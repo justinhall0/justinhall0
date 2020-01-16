@@ -48,6 +48,13 @@ nav ul {
 }
 
 /* main "products" styles */
+html {
+  box-sizing: border-box;
+}
+* {
+  box-sizing: inherit;
+}
+
 main {
   font-family: 'Stint Ultra Expanded', cursive;
   background-color: white;
@@ -94,12 +101,6 @@ h2 {
   font-family: verdana, sans-serif;
   font-size: .8em;
   text-transform: uppercase;
-}
-html {
-  box-sizing: border-box;
-}
-* {
-  box-sizing: inherit;
 }
 a {
   text-decoration: none;
