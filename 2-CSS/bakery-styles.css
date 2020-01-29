@@ -123,3 +123,8 @@ a {
   border-bottom: 1px dotted;
   padding-bottom: .2em;
 }
+#award {
+  position: absolute;
+  top: 30px;
+  left: 50px;
+}
