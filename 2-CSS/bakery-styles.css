@@ -124,7 +124,7 @@ a {
   padding-bottom: .2em;
 }
 #award {
-  position: absolute;
+  position: fixed;
   top: 30px;
   left: 50px;
 }
